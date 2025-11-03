@@ -102,4 +102,3 @@ function restablecerPreferencias() {
         location.reload();
     }
 }
-

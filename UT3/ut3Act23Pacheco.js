@@ -15,7 +15,7 @@ if(navigator.language.startsWith("es")){
 }
 
 //Mostrar por consola la url actual
-console.log("URL de la web actual: location.href");
+console.log("URL de la web actual: ", location.href);
 
 //Cambiar el titulo de la pagina a "Torneo de Ajedrez online
 console.log(document.title);
