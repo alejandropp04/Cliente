@@ -76,7 +76,7 @@ while (true){
     movimientos++;
     historial.push(`${pieza} de ${origen.toUpperCase()} a ${destino.toUpperCase()}`);
 
-    //Mostrar resultado
+    //Mostrar resultado y tablero
     mostrarTablero();
     console.log(destinoOcupado ? "La casilla de destino estaba ocupada (captura)." : "Movimiento realizado correctamente");
     console.log(`Movimientos realizado: ${movimientos}`);
