@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Partida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Registro de Partida de Ajedrez</h1>
+
+<form id="form-partida" novalidate>
+
+    <label>Jugador Blancas:
+        <input type="text" id="blancas" required>
+    </label>
+    <p id="err-blancas" class="error"></p>
+
+    <label>Jugador Negras:
+        <input type="text" id="negras" required>
+    </label>
+    <p id="err-negras" class="error"></p>
+
+    <label>Resultado:
+        <select id="resultado" required>
+            <option value="">-- Selecciona --</option>
+            <option value="1-0">1-0</option>
+            <option value="0-1">0-1</option>
+            <option value="½-½">½-½</option>
+        </select>
+    </label>
+    <p id="err-resultado" class="error"></p>
+
+    <label>Fecha:
+        <input type="date" id="fecha" required>
+    </label>
+    <p id="err-fecha" class="error"></p>
+
+    <button type="submit">Registrar</button>
+    <button type="button" id="reset-btn">Reset</button>
+
+    <p id="total-partidas"></p>
+</form>
+
+<p id="ok"></p>
+<script type="module" src="./js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* Tema claro (por defecto) */
+#panel {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+/* Tema oscuro */
+.dark {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,4 @@
+body { font-family: Arial; max-width: 600px; margin: 20px auto; }
+.error { color: red; font-size: 0.9em; }
+#ok { color: green; font-weight: bold; }
+label { display: block; margin-top: 10px; }
