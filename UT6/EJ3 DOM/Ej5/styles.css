@@ -1,0 +1,20 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 40px);
+    margin: 20px;
+}
+.square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.light { background: #eee; color: black; }
+.dark  { background: #666; color: black; }
+
+.highlight {
+    outline: 3px solid yellow;
+}
