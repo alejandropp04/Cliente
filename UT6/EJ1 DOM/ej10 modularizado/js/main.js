@@ -1,3 +1,7 @@
+import {createBoard} from "./board.js";
+import {placeInitialPawn} from "./board.js";
+import {enablePawnMove} from "./moves.js";
+
 document.addEventListener("DOMContentLoaded", () => {
     const board = document.getElementById("board");
 

@@ -1,6 +1,6 @@
-const files = ["a","b","c","d","e","f","g","h"];
+export function createBoard(boardElement) {
+    const files = ["a","b","c","d","e","f","g","h"];
 
-function createBoard(boardElement) {
     for (let row = 8; row >= 1; row--) {
         for (let col = 0; col < 8; col++) {
             const square = document.createElement("div");
@@ -20,7 +20,7 @@ function createBoard(boardElement) {
     }
 }
 
-function placeInitialPawn() {
+export function placeInitialPawn() {
     const e2 = document.querySelector('[data-pos="e2"]');
     e2.textContent = "♙";
     e2.dataset.moved = "false"; // marcador para saber si se movió

@@ -40,10 +40,48 @@
  -->
     <div id="container"></div>
 
+<!-- Ejercicio 6: Crear y añadir elementos
+     Cuando se pulse el boyon, pide con un prompt la tarea, crear un li, añadelo al ul,
+     cada li deebe borarse al hacer clic en el
+-->
+
+    <ul id="tareas"></ul>
+    <button id="add">Añadir tarea</button>
+
+<!-- Ejercicio 7: Eventos del DOM basico: Añade un listener a al boton y que muestre un alert
+     "Hola desde el DOM"
+-->
+    <button id="saludar">Saludar</button>
+
+<!-- Ejercicio 8: Eventos del DOM. Implementa la delegacion de eventos, pon un unico listener
+     sobre el ul, detecta que li fue pulsado y muestra un mensaje distinto segun el data-op
+-->
+    <ul id="menu">
+        <li data-op="perfil">Perfil</li>
+        <li data-op="config">Configuracion</li>
+        <li data-op="salir">Salir</li>
+    </ul>
+
+<!-- Ejercicio 9: Mini formulario validado con JS.
+    Evita el envio del formulario
+    El usuario debe tener minimo 3 caracteres.
+    Contraseña minimo 6 caracteres
+    Si falla mensaje en rojo, sino en verde "Acceso permitido"
+-->
+    <form id="login">
+        <input type="text" id="user" placeholder="Usuario" required>
+        <input type="password" id="pass" placeholder="Contraseña" required>
+        <button>Entrar</button>
+    </form>
+    <p id="msg"></p>
 
     <script src="js/ej1.js"></script>
     <script src="js/ej2.js"></script>
     <script src="js/ej3.js"></script>
     <script src="js/ej5.js"></script>
+    <script src="js/ej6.js"></script>
+    <script src="js/ej7.js"></script>
+    <script src="js/ej8.js"></script>
+    <script src="js/ej9.js"></script>
 </body>
 </html>

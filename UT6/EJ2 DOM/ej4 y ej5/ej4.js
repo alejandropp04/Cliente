@@ -23,7 +23,6 @@ function createBoard(){
         }
     }
 }
-
 createBoard();
 
 //Ejercicio 5. Añadir un escuchador de eventos a board para que desuvelva
