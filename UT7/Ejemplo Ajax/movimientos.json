@@ -1,0 +1,9 @@
+{
+  "partida": "Clase UT7",
+  "movimientos": [
+    { "turno": 1, "pieza": "peón blanco", "from": "e2", "to": "e4" },
+    { "turno": 1, "pieza": "peón negro", "from": "e7", "to": "e5" },
+    { "turno": 2, "pieza": "caballo blanco", "from": "g1", "to": "f3" },
+    { "turno": 2, "pieza": "caballo negro", "from": "b8", "to": "c6" }
+  ]
+}
