@@ -1,0 +1,6 @@
+{
+  "movimientos": [
+    { "pieza": "Peón", "from": "e2", "to": "e4" },
+    { "pieza": "Caballo", "from": "g8", "to": "f6" }
+  ]
+}

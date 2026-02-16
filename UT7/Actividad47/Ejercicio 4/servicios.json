@@ -1,0 +1,7 @@
+{
+  "servicios": [
+    { "nombre": "Clases de ajedrez", "categoria": "Educación" },
+    { "nombre": "Torneo online", "categoria": "Competición" },
+    { "nombre": "Análisis de partidas", "categoria": "Entrenamiento" }
+  ]
+}
