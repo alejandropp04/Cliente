@@ -1,0 +1,10 @@
+{
+    "movimientos": [
+        { "pieza": "Peón", "from": "e2", "to": "e4" },
+        { "pieza": "Caballo", "from": "g8", "to": "f6" },
+        { "pieza": "Alfil", "from": "f1", "to": "c4" },
+        { "pieza": "Peón", "from": "d7", "to": "h5" },
+        { "pieza": "Peón", "from": "e4", "to": "e5" },
+        { "pieza": "Caballo", "from": "f6", "to": "h5" }
+    ]
+}
