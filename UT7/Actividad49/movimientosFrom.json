@@ -1,0 +1,5 @@
+[
+  { "from": "e2", "to": "e4", "piece": "pawn" },
+  { "from": "g8", "to": "f6", "piece": "knight" },
+  { "from": "f1", "to": "c4", "piece": "bishop" }
+]
